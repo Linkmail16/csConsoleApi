@@ -1,4 +1,4 @@
-```python
+
 import pymem
 import pymem.process
 import struct
@@ -128,4 +128,4 @@ def recordDemo(name: str, path: str = None):
 
 def reconnectToServer():
     sendCommand("retry")
-```
+
